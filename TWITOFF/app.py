@@ -21,7 +21,7 @@ def create_app():
         users = User.query.all()
         return render_template('base.html', title='Home', users=users)
 
-    @app.route('/user', methods=['POST','GET'])
+    @app.route('/user', methods=['POST'])
     @app.route('/user/<name>', methods=['GET'])
     def user(name=None,message=''):
         name = name or request.values['user_name']

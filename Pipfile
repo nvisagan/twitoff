@@ -16,6 +16,9 @@ scikit-learn = "*"
 python-dotenv = "*"
 sklearn = "*"
 decouple = "*"
+pickel = "*"
+pickle = "*"
+pickle-mixin = "*"
 
 [requires]
 python_version = "3.7"
