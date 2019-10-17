@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 flask = "*"
 flask-sqlalchemy = "*"
+<<<<<<< HEAD
 tweepy = "*"
 basilica = "*"
 python-decouple = "*"
@@ -19,6 +20,9 @@ decouple = "*"
 pickel = "*"
 pickle = "*"
 pickle-mixin = "*"
+=======
+
+>>>>>>> 733c7619e86ae4507085ce1528b23828919aa5b7
 
 [requires]
 python_version = "3.7"
